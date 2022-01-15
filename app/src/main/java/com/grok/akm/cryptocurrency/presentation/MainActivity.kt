@@ -1,4 +1,4 @@
-package com.grok.akm.cryptocurrency
+package com.grok.akm.cryptocurrency.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,13 +8,13 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.grok.akm.cryptocurrency.ui.theme.CryptoCurrencyTheme
+import com.grok.akm.cryptocurrency.presentation.theme.CryptoCurrencyTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CryptoCurrencyTheme {
+            CryptoCurrencyTheme() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     Greeting("Android")

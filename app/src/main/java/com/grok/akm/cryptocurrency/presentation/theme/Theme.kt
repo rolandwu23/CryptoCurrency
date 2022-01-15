@@ -1,6 +1,5 @@
-package com.grok.akm.cryptocurrency.ui.theme
+package com.grok.akm.cryptocurrency.presentation.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
@@ -22,7 +21,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun CryptoCurrency(darkTheme: Boolean = true, content: @Composable() () -> Unit) {
+fun CryptoCurrencyTheme(darkTheme: Boolean = true, content: @Composable() () -> Unit) {
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {

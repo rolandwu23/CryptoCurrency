@@ -1,4 +1,4 @@
-package com.grok.akm.cryptocurrency.ui.theme
+package com.grok.akm.cryptocurrency.presentation.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
